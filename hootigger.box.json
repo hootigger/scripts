@@ -1,0 +1,145 @@
+{
+	"id": "hootigger.app.sub",
+	"name": "@hootigger 收集应用订阅",
+	"author": "@hootigger",
+	"icon": "",
+	"repo": "https://github.com/hootigger/scripts",
+	"apps": [
+		{
+			"id": "youth",
+			"name": "中青看点",
+			"keys": ["youthheader_zq","red_zq","read_zq","readtime_zq","signt","times","opbox"],
+			"settings": [
+				{
+					"id": "youthheader_zq",
+					"name": "youthheader_zq",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "请求Headers"
+				}
+				,
+				{
+					"id": "red_zq",
+					"name": "red_zq",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "red_zq"
+				}
+				,
+				{
+					"id": "read_zq",
+					"name": "read_zq",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "read_zq"
+				}
+				,
+				{
+					"id": "readtime_zq",
+					"name": "readtime_zq",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "readtime_zq"
+				}
+				,
+				{
+					"id": "signt",
+					"name": "signt",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "signt"
+				}
+				,
+				{
+					"id": "times",
+					"name": "times",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "times"
+				}
+				,
+				{
+					"id": "opbox",
+					"name": "opbox",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "opbox"
+				}
+			],
+			"author": "@Sunert",
+			"repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js",
+			"script":"https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js",
+			"icons": [
+				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
+			]
+		},
+		{
+			"id": "sy_youth_read",
+			"name": "中青自动阅读",
+			"keys": ["zqgetbody_body","zqgetbody_body1"],
+			"settings": [
+				{
+					"id": "zqgetbody_body",
+					"name": "请求body",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 8,
+					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+				}
+				,
+				{
+					"id": "zqgetbody_body1",
+					"name": "请求body",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 8,
+					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+				}
+				,
+				{
+					"id": "zqgetbody_body_index",
+					"name": "上次执行位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+				}
+				,
+				{
+					"id": "zqgetbody_body_index1",
+					"name": "上次执行位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+				}
+			],
+			"author": "@syzzzf",
+			"repo": "https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
+			"script":"https://raw.githubusercontent.com/songyangzz/QuantumultX/master/YOUTH_READ.js",
+			"icons": [
+				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
+			]
+		}
+	]
+}
