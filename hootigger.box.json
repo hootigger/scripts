@@ -105,7 +105,7 @@
 				,
 				{
 					"id": "zqgetbody_body1",
-					"name": "请求body",
+					"name": "请求body1",
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
@@ -125,7 +125,7 @@
 				,
 				{
 					"id": "zqgetbody_body_index1",
-					"name": "上次执行位置",
+					"name": "上次执行位置1",
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
