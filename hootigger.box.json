@@ -202,6 +202,39 @@
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
 			]
+		},
+		{
+			"id": "QQReadSign",
+			"name": "QQ阅读APP",
+			"keys": ["checkinheader","punchCardheader"],
+			"settings": [
+				{
+					"id": "checkinheader",
+					"name": "checkinheader",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 8,
+					"desc": "签到headers"
+				}
+				,
+				{
+					"id": "punchCardheader",
+					"name": "punchCardheader",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 8,
+					"desc": "视频headers"
+				}
+			],
+			"author": "@DD-D1",
+			"repo": "https://github.com/DD-D1/2020scripts/blob/master/QQReadSign.js",
+			"script":"https://raw.githubusercontent.com/DD-D1/2020scripts/master/QQReadSign.js",
+			"icons": [
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
+			]
 		}
 	]
 }
