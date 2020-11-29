@@ -143,7 +143,7 @@
 		},
 		{
 			"id": "qq_read",
-			"name": "企鹅阅读-双账号账号",
+			"name": "企鹅阅读-双账号",
 			"keys": ["qqreadurl1","qqreadhd1","qqreadbody1","qqreadtimeurl1","qqreadtimehd1"],
 			"settings": [
 				{
@@ -152,7 +152,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 1,
+					"rows": 2,
 					"desc": "url请求"
 				}
 				,
@@ -172,7 +172,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 1,
+					"rows": 2,
 					"desc": "阅读body"
 				}
 				,
@@ -182,7 +182,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 1,
+					"rows": 2,
 					"desc": "阅读时长url"
 				},
 				{
@@ -200,7 +200,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 1,
+					"rows": 2,
 					"desc": "url请求2"
 				}
 				,
@@ -220,7 +220,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 1,
+					"rows": 2,
 					"desc": "阅读body2"
 				}
 				,
@@ -230,7 +230,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 1,
+					"rows": 2,
 					"desc": "阅读时长url2"
 				},
 				{
