@@ -143,7 +143,7 @@
 		},
 		{
 			"id": "qq_read",
-			"name": "企鹅阅读",
+			"name": "企鹅阅读-双账号账号",
 			"keys": ["qqreadurl1","qqreadhd1","qqreadbody1","qqreadtimeurl1","qqreadtimehd1"],
 			"settings": [
 				{
@@ -193,6 +193,54 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读时长cookie"
+				},
+				{
+					"id": "qqreadurl2",
+					"name": "qqreadurl2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "url请求2"
+				}
+				,
+				{
+					"id": "qqreadhd2",
+					"name": "qqreadhd2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 8,
+					"desc": "阅读Cookie2"
+				}
+				,
+				{
+					"id": "qqreadbody2",
+					"name": "qqreadbody2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "阅读body2"
+				}
+				,
+				{
+					"id": "qqreadtimeurl2",
+					"name": "qqreadtimeurl2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "阅读时长url2"
+				},
+				{
+					"id": "qqreadtimehd2",
+					"name": "qqreadtimehd2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 8,
+					"desc": "阅读时长cookie2"
 				}
 			],
 			"author": "@ziye12",
