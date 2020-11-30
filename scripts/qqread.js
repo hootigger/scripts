@@ -81,7 +81,7 @@ const notifyInterval=2
 //0为关闭通知，1为所有通知，2为宝箱领取成功通知，3为宝箱每15次通知一次
 
 
-const jbid=$.getdata("qqread_jbid")//换号则修改这个值,默认账号1
+const jbid=$.getdata("qqread_jbid") || 1 //换号则修改这个值,默认账号1
 
 const dd=1//单次任务延迟,默认1秒
 
