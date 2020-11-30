@@ -2,7 +2,7 @@
 	"id": "hootigger.app.sub",
 	"name": "@hootigger 收集应用订阅",
 	"author": "@hootigger",
-	"icon": "https://raw.githubusercontent.com/hootigger/scripts/main/icon/xiaoxin_108.png",
+	"icon": "https://raw.githubusercontent.com/hootigger/scripts/main/icon/xiaoxin.png",
 	"repo": "https://github.com/hootigger/scripts",
 	"apps": [
 		{
