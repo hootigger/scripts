@@ -2,7 +2,7 @@
 	"id": "hootigger.app.sub",
 	"name": "@hootigger 收集应用订阅",
 	"author": "@hootigger",
-	"icon": "",
+	"icon": "https://raw.githubusercontent.com/hootigger/scripts/main/icon/xiaoxin_108.png",
 	"repo": "https://github.com/hootigger/scripts",
 	"apps": [
 		{
@@ -327,6 +327,28 @@
 			"author": "@DD-D1",
 			"repo": "https://github.com/DD-D1/2020scripts/blob/master/QQReadSign.js",
 			"script":"https://raw.githubusercontent.com/DD-D1/2020scripts/master/QQReadSign.js",
+			"icons": [
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
+			]
+		},
+		{
+			"id": "qq_read_ck",
+			"name": "企鹅读书-多账号CK",
+			"keys": [],
+			"settings": [
+				{
+					"id": "qqread_jbid",
+					"name": "qqread_jbid",
+					"val": "1",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "企鹅读书,ck索引"
+				}
+			],
+			"author": "@hootigger",
+			"repo": "https://github.com/ziye12/JavaScript/blob/master/qqread.js",
 			"icons": [
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
