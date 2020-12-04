@@ -144,7 +144,7 @@
 		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadurl1","qqreadhd1","qqreadbody1","qqreadtimeurl1","qqreadtimehd1"],
+			"keys": ["qqreadurl1","qqreadhd1","qqreadtimeurl1","qqreadtimehd1"],
 			"settings": [
 				{
 					"id": "qqreadurl1",
@@ -164,16 +164,6 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读Cookie"
-				}
-				,
-				{
-					"id": "qqreadbody1",
-					"name": "qqreadbody1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读body"
 				}
 				,
 				{
@@ -215,16 +205,6 @@
 				}
 				,
 				{
-					"id": "qqreadbody2",
-					"name": "qqreadbody2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读body2"
-				}
-				,
-				{
 					"id": "qqreadtimeurl2",
 					"name": "qqreadtimeurl2",
 					"val": "",
@@ -260,16 +240,6 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读Cookie3"
-				}
-				,
-				{
-					"id": "qqreadbody3",
-					"name": "qqreadbody3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读body3"
 				}
 				,
 				{
@@ -342,7 +312,7 @@
 					"name": "qqread_jbid",
 					"val": "1",
 					"type": "textarea",
-					"autoGrow": false,
+					"autoGrow": true,
 					"rows": 1,
 					"desc": "企鹅读书,ck索引"
 				}
