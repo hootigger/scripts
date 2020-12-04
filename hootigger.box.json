@@ -312,7 +312,7 @@
 					"name": "qqread_jbid",
 					"val": "1",
 					"type": "textarea",
-					"autoGrow": true,
+					"autoGrow": false,
 					"rows": 1,
 					"desc": "企鹅读书,ck索引"
 				}
