@@ -304,7 +304,6 @@ function qqreadtake() {
   })
 }
 
-
 //阅读时长任务
 function qqreadconfig() {
   return new Promise((resolve, reject) => {
