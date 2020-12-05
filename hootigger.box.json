@@ -144,18 +144,8 @@
 		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadurl1","qqreadhd1","qqreadbody1","qqreadtimeurl1","qqreadtimehd1"],
+			"keys": ["qqreadhd1","qqreadtimeurl1","qqreadtimehd1"],
 			"settings": [
-				{
-					"id": "qqreadurl1",
-					"name": "qqreadurl1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "url请求"
-				}
-				,
 				{
 					"id": "qqreadhd1",
 					"name": "qqreadhd1",
@@ -164,16 +154,6 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读Cookie"
-				}
-				,
-				{
-					"id": "qqreadbody1",
-					"name": "qqreadbody1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读body"
 				}
 				,
 				{
@@ -193,15 +173,6 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读时长cookie"
-				},
-				{
-					"id": "qqreadurl2",
-					"name": "qqreadurl2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "url请求2"
 				}
 				,
 				{
@@ -212,16 +183,6 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读Cookie2"
-				}
-				,
-				{
-					"id": "qqreadbody2",
-					"name": "qqreadbody2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读body2"
 				}
 				,
 				{
@@ -243,16 +204,6 @@
 					"desc": "阅读时长cookie2"
 				},
 				{
-					"id": "qqreadurl3",
-					"name": "qqreadurl3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "url请求3"
-				}
-				,
-				{
 					"id": "qqreadhd3",
 					"name": "qqreadhd3",
 					"val": "",
@@ -260,16 +211,6 @@
 					"autoGrow": false,
 					"rows": 8,
 					"desc": "阅读Cookie3"
-				}
-				,
-				{
-					"id": "qqreadbody3",
-					"name": "qqreadbody3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读body3"
 				}
 				,
 				{
