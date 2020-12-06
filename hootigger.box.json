@@ -142,105 +142,6 @@
 			]
 		},
 		{
-			"id": "qq_read",
-			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadhd1","qqreadtimeurl1","qqreadtimehd1"],
-			"settings": [
-				{
-					"id": "qqreadhd1",
-					"name": "qqreadhd1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 8,
-					"desc": "阅读Cookie"
-				}
-				,
-				{
-					"id": "qqreadtimeurl1",
-					"name": "qqreadtimeurl1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url"
-				},
-				{
-					"id": "qqreadtimehd1",
-					"name": "qqreadtimehd1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 8,
-					"desc": "阅读时长cookie"
-				}
-				,
-				{
-					"id": "qqreadhd2",
-					"name": "qqreadhd2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 8,
-					"desc": "阅读Cookie2"
-				}
-				,
-				{
-					"id": "qqreadtimeurl2",
-					"name": "qqreadtimeurl2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url2"
-				},
-				{
-					"id": "qqreadtimehd2",
-					"name": "qqreadtimehd2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 8,
-					"desc": "阅读时长cookie2"
-				},
-				{
-					"id": "qqreadhd3",
-					"name": "qqreadhd3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 8,
-					"desc": "阅读Cookie3"
-				}
-				,
-				{
-					"id": "qqreadtimeurl3",
-					"name": "qqreadtimeurl3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url3"
-				},
-				{
-					"id": "qqreadtimehd3",
-					"name": "qqreadtimehd3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 8,
-					"desc": "阅读时长cookie3"
-				}
-			],
-			"author": "@ziye12",
-			"repo": "https://github.com/ziye12/JavaScript/blob/master/qqread.js",
-			"script":"https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js",
-			"icons": [
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
-			]
-		},
-		{
 			"id": "QQReadSign",
 			"name": "QQ阅读APP",
 			"keys": ["checkinheader","punchCardheader"],
@@ -268,6 +169,133 @@
 			"author": "@DD-D1",
 			"repo": "https://github.com/DD-D1/2020scripts/blob/master/QQReadSign.js",
 			"script":"https://raw.githubusercontent.com/DD-D1/2020scripts/master/QQReadSign.js",
+			"icons": [
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
+			]
+		},
+		{
+			"id": "qq_read",
+			"name": "企鹅阅读-多账号",
+			"keys": ["qqreadhd1","qqreadtimeurl1","qqreadtimehd1"],
+			"settings": [
+				{
+					"id": "qqreadhd1",
+					"name": "qqreadhd1",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读Cookie"
+				}
+				,
+				{
+					"id": "qqreadtimeurl1",
+					"name": "qqreadtimeurl1",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url"
+				},
+				{
+					"id": "qqreadtimehd1",
+					"name": "qqreadtimehd1",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读时长cookie"
+				}
+				,
+				{
+					"id": "qqreadhd2",
+					"name": "qqreadhd2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读Cookie2"
+				}
+				,
+				{
+					"id": "qqreadtimeurl2",
+					"name": "qqreadtimeurl2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url2"
+				},
+				{
+					"id": "qqreadtimehd2",
+					"name": "qqreadtimehd2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读时长cookie2"
+				},
+				{
+					"id": "qqreadhd3",
+					"name": "qqreadhd3",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读Cookie3"
+				}
+				,
+				{
+					"id": "qqreadtimeurl3",
+					"name": "qqreadtimeurl3",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url3"
+				},
+				{
+					"id": "qqreadtimehd3",
+					"name": "qqreadtimehd3",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读时长cookie3"
+				},
+				{
+					"id": "qqreadhd4",
+					"name": "qqreadhd4",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读Cookie4"
+				}
+				,
+				{
+					"id": "qqreadtimeurl4",
+					"name": "qqreadtimeurl4",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url4"
+				},
+				{
+					"id": "qqreadtimehd4",
+					"name": "qqreadtimehd4",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读时长cookie4"
+				}
+			],
+			"author": "@ziye12",
+			"repo": "https://github.com/ziye12/JavaScript/blob/master/qqread.js",
+			"script":"https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js",
 			"icons": [
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
