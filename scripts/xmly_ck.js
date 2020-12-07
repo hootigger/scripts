@@ -16,7 +16,7 @@ const jsname = "喜马拉雅极速版";
 const $ = Env(jsname);
 
 // 是否清除ck
-const isDelCookie = $.getdata('xmly_del_cookie') || false
+const isDelCookie = $.getdata('xmly_del_cookie') || 'false'
 
 const ck1 = 'xmly_cookie1'
 const ck2 = 'xmly_cookie2'
@@ -24,7 +24,7 @@ const ua1 = 'xmly_ua1'
 const ua2 = 'xmly_ua2'
 
 !(async () => {
-  if (isDelCookie) {
+  if (isDelCookie === 'true') {
     $.setdata('',ck1)
     $.setdata('',ua1)
     $.setdata('',ck2)
