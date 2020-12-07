@@ -1,0 +1,12 @@
+{
+  "name": "自用收集脚本",
+  "description": "自用收集脚本",
+  "task": [
+    {
+      "config": "0 0 * * * https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-task.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=Sample, enabled=true",
+      "addons": "https://raw.githubusercontent.com/hootigger/scripts/main/GetCookie.conf"
+    },
+    "10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js, tag=京东金榜年终奖, enabled=true",
+    "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_ms_redrain.js, tag=秒杀红包雨, enabled=true"
+  ]
+}
