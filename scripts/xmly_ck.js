@@ -9,6 +9,7 @@
  * #喜马拉雅极速版 获取ck & ua
  * https:\/\/m\.ximalaya\.com\/speed\/web-earn\/task\/stage-rewards-daily url script-request-body https://raw.githubusercontent.com/hootigger/scripts/main/scripts/xmly_ck.js
  * 
+ * 打开 喜马拉雅极速版,点击 福利界面 即可获取ck
  * 
 */
 const jsname = "喜马拉雅极速版";
@@ -29,14 +30,14 @@ const ua2 = 'xmly_ua2'
     $.setdata('',ck2)
     $.setdata('',ua2)
     $.log(jsname,'Cookie清除成功!请重新获取!')
-    $.msg(jsname,'Cookie清除成功!请重新获取!')
+    $.msg(jsname,'','Cookie清除成功!请重新获取!')
     return
   }
   if (typeof $request !== "undefined") {
     GetCookie()
   } else {
     $.log(jsname,'脚本仅供获取cookie和UA使用!请按照脚本说明加入重写.')
-    $.msg(jsname,`脚本仅供获取cookie和UA使用!请按照脚本说明加入重写.`)
+    $.msg(jsname,'',`脚本仅供获取cookie和UA使用!请按照脚本说明加入重写.`)
   }
 })()
 .catch(e => {
@@ -64,14 +65,14 @@ function GetCookie() {
         $.setdata(ua,ua2)
         $.log(jsname,`写入 ${ck2}: `,ck)
         $.log(jsname,`写入 ${ua2}: `,ua)
-        $.msg(jsname,`${ck2} & ${ua2}: 获取Cookie: 成功🎉`)
+        $.msg(jsname,'',`${ck2} & ${ua2}: 获取Cookie: 成功🎉`)
       } else {
         // 若1,2账号均存在 则更新到1
         $.setdata(ck,ck1)
         $.setdata(ua,ua1)
         $.log(jsname,`写入 ${ck1}: `,ck)
         $.log(jsname,`写入 ${ua1}: `,ua)
-        $.msg(jsname,`${ck1} & ${ua1}: 获取Cookie: 成功🎉`)
+        $.msg(jsname,'',`${ck1} & ${ua1}: 获取Cookie: 成功🎉`)
       }
     }
   }
