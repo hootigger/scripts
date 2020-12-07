@@ -316,7 +316,63 @@
 				}
 			],
 			"author": "@hootigger",
-			"repo": "https://github.com/ziye12/JavaScript/blob/master/qqread.js",
+			"repo": "https://github.com/ziye12/JavaScript/blob/master/Task/qqreads.js",
+			"icons": [
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
+			]
+		},
+		{
+			"id": "xmly_ck",
+			"name": "喜马拉雅极速版Ck",
+			"keys": [],
+			"settings": [
+				{
+					"id": "xmly_del_cookie",
+					"name": "是否清除cookie",
+					"val": false,
+					"type": "boolean",
+					"desc": "企鹅读书,账号索引"
+				},
+				{
+					"id": "xmly_cookie1",
+					"name": "账号1Cookie",
+					"val": "4",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "喜马拉雅极速版Cookie"
+				},
+				{
+					"id": "xmly_ua1",
+					"name": "账号1 UA",
+					"val": "4",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "喜马拉雅极速版UA"
+				},
+				{
+					"id": "xmly_cookie2",
+					"name": "账号2 Cookie",
+					"val": "4",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "喜马拉雅极速版Cookie"
+				},
+				{
+					"id": "xmly_ua2",
+					"name": "账号2 UA",
+					"val": "4",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "喜马拉雅极速版UA"
+				}
+			],
+			"author": "@hootigger",
+			"repo": "https://raw.githubusercontent.com/hootigger/scripts/main/scripts/xmly_ck.js",
 			"icons": [
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
