@@ -29,7 +29,7 @@ const ua2 = 'xmly_ua2'
     $.setdata('',ua1)
     $.setdata('',ck2)
     $.setdata('',ua2)
-    $.setdata(false,'xmly_del_cookie') // 恢复false
+    $.setdata('false','xmly_del_cookie') // 恢复false
     $.log(jsname,'Cookie清除成功!请重新获取!')
     $.msg(jsname,'','Cookie清除成功!请重新获取!')
     return
