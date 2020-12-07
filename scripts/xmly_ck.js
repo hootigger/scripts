@@ -32,7 +32,7 @@ const ua2 = 'xmly_ua2'
     $.msg(jsname,'Cookie清除成功!请重新获取!')
     return
   }
-  if (typeof $request !== undefined) {
+  if (typeof $request !== "undefined") {
     GetCookie()
   } else {
     $.log(jsname,'脚本仅供获取cookie和UA使用!请按照脚本说明加入重写.')
