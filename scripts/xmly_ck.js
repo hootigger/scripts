@@ -51,8 +51,8 @@ function GetCookie() {
     const ck = $request.headers['Cookie']
     const ua = $request.headers['User-Agent']
     if (ck && ua) {
-      const hasCK1 = $.getdata(ck1) !== undefined && $.getdata(ua1) !== undefined
-      const hasCK2 = $.getdata(ck2) !== undefined && $.getdata(ua2) !== undefined
+      const hasCK1 = $.getdata(ck1) !== undefined && $.getdata(ck1) !== '' && $.getdata(ua1) !== undefined && $.getdata(ua1) !== ''
+      const hasCK2 = $.getdata(ck2) !== undefined && $.getdata(ck2) !== '' && $.getdata(ua2) !== undefined && $.getdata(ua2) !== ''
       if (!hasCK1) {
         $.setdata(ck,ck1)
         $.setdata(ua,ua1)
