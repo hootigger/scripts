@@ -166,7 +166,8 @@ if ($.isNode()) {
 
 if ((isGetCookie = typeof $request !== "undefined")) {
   GetCookie();
-$.done();
+  $.done();
+  return
 }
 
 function GetCookie() {
