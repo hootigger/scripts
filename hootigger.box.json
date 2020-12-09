@@ -16,7 +16,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "请求Headers"
 				}
 				,
@@ -36,7 +36,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "read_zq"
 				}
 				,
@@ -99,7 +99,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 				}
 				,
@@ -109,7 +109,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 				}
 				,
@@ -152,7 +152,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "签到headers"
 				}
 				,
@@ -162,7 +162,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "视频headers"
 				}
 			],
@@ -188,6 +188,145 @@
 					"autoGrow": false,
 					"rows": 1,
 					"desc": "企鹅读书,多账号索引,默认可以存取7个账号."
+				},
+				{
+					"id": "qqreadbd1",
+					"name": "qqreadbd1",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读更新body1"
+				}
+				,
+				{
+					"id": "qqreadtimeurl1",
+					"name": "qqreadtimeurl1",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url"
+				},
+				{
+					"id": "qqreadtimehd1",
+					"name": "qqreadtimehd1",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长cookie"
+				}
+				,
+				{
+					"id": "qqreadbd2",
+					"name": "qqreadbd2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读更新body2"
+				}
+				,
+				{
+					"id": "qqreadtimeurl2",
+					"name": "qqreadtimeurl2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url2"
+				},
+				{
+					"id": "qqreadtimehd2",
+					"name": "qqreadtimehd2",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长cookie2"
+				},
+				{
+					"id": "qqreadbd3",
+					"name": "qqreadbd3",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读更新body3"
+				}
+				,
+				{
+					"id": "qqreadtimeurl3",
+					"name": "qqreadtimeurl3",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url3"
+				},
+				{
+					"id": "qqreadtimehd3",
+					"name": "qqreadtimehd3",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长cookie3"
+				},
+				{
+					"id": "qqreadbd4",
+					"name": "qqreadbd4",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读更新body4"
+				},
+				{
+					"id": "qqreadtimeurl4",
+					"name": "qqreadtimeurl4",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url4"
+				},
+				{
+					"id": "qqreadtimehd4",
+					"name": "qqreadtimehd4",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长cookie4"
+				},
+				{
+					"id": "qqreadbd5",
+					"name": "qqreadbd5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读更新body5"
+				},
+				{
+					"id": "qqreadtimeurl5",
+					"name": "qqreadtimeurl5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url5"
+				},
+				{
+					"id": "qqreadtimehd5",
+					"name": "qqreadtimehd5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长cookie5"
 				}
 			],
 			"author": "@ziye12",
@@ -202,7 +341,7 @@
 			"name": "喜马拉雅极速版Ck",
 			"keys": ["xmly_cookie1","xmly_ua1","xmly_cookie2","xmly_ua2"],
 			"descs_html": [
-				
+
 			],
 			"settings": [
 				{
