@@ -1,4 +1,5 @@
-/** ziye
+/* 
+ziye
 
 本人github地址     https://github.com/ziye12/JavaScript
 转载请备注个名字，谢谢
@@ -86,7 +87,6 @@ const maxtime = 12; // 每日上传时长限制，默认12小时
 const wktimess = 1200; // 周奖励领取标准，默认1200分钟
 
 const jbid = $.getdata("qqread_jbid") || 1 //换号则修改这个值,默认账号1
-
 const qqreadbdArr = [];
 let qqreadbodyVal = "";
 const qqreadtimeurlArr = [];
@@ -159,14 +159,15 @@ if ($.isNode()) {
     ).toLocaleString()}  =============\n`
   );
 } else {
-  qqreadbdArr.push($.getdata("qqreadbd"));
-  qqreadtimeurlArr.push($.getdata("qqreadtimeurl"));
-  qqreadtimehdArr.push($.getdata("qqreadtimehd"));
+  qqreadbdArr.push($.getdata("qqreadbd"+jbid));
+  qqreadtimeurlArr.push($.getdata("qqreadtimeurl"+jbid));
+  qqreadtimehdArr.push($.getdata("qqreadtimehd"+jbid));
 }
 
 if ((isGetCookie = typeof $request !== "undefined")) {
   GetCookie();
-$.done();
+  $.done();
+  return
 }
 
 function GetCookie() {
@@ -310,12 +311,12 @@ function qqreadtask() {
 // 更新
 function qqreadtrack() {
   return new Promise((resolve, reject) => {
-    const toqqreadtrackurl = {
-      url: "https://mqqapi.reader.qq.com/log/v4/mqq/track",
-
-      headers: JSON.parse(qqreadtimeheaderVal),
-	  body: qqreadbodyVal,      
-      timeout: 60000,
+    const body = qqreadbodyVal.replace(new RegExp(/"dis":[0-9]{13}/),`"dis":${new Date().getTime()}`) 
+    const toqqreadtrackurl = { 
+      url: "https://mqqapi.reader.qq.com/log/v4/mqq/track", 
+      headers: JSON.parse(qqreadtimeheaderVal), 
+   body: body,       
+      timeout: 60000, 
     };
     $.post(toqqreadtrackurl, (error, response, data) => {
       if (logs) $.log(`${jsname}, 更新: ${data}`);
@@ -334,9 +335,7 @@ function qqreadinfo() {
   return new Promise((resolve, reject) => {
     const toqqreadinfourl = {
       url: "https://mqqapi.reader.qq.com/mqq/user/init",
-
       headers: JSON.parse(qqreadtimeheaderVal),
-
       timeout: 60000,
     };
     $.get(toqqreadinfourl, (error, response, data) => {
@@ -361,7 +360,6 @@ function qqreadtake() {
     $.post(toqqreadtakeurl, (error, response, data) => {
       if (logs) $.log(`${jsname}, 阅豆签到: ${data}`);
       take = JSON.parse(data);
-
       if (take.data.takeTicket > 0) {
         tz += `【阅豆签到】:获得${take.data.takeTicket}豆\n`;
       }
