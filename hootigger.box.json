@@ -177,159 +177,7 @@
 		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1","qqreadbd2","qqreadtimeurl2","qqreadtimehd2","qqreadbd3","qqreadtimeurl3","qqreadtimehd3","qqreadbd4","qqreadtimeurl4","qqreadtimehd4"],
-			"settings": [
-				{
-					"id": "qqreadbd1",
-					"name": "qqreadbd1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读更新body1"
-				}
-				,
-				{
-					"id": "qqreadtimeurl1",
-					"name": "qqreadtimeurl1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url"
-				},
-				{
-					"id": "qqreadtimehd1",
-					"name": "qqreadtimehd1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读时长cookie"
-				}
-				,
-				{
-					"id": "qqreadbd2",
-					"name": "qqreadbd2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读更新body2"
-				}
-				,
-				{
-					"id": "qqreadtimeurl2",
-					"name": "qqreadtimeurl2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url2"
-				},
-				{
-					"id": "qqreadtimehd2",
-					"name": "qqreadtimehd2",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读时长cookie2"
-				},
-				{
-					"id": "qqreadbd3",
-					"name": "qqreadbd3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读更新body3"
-				}
-				,
-				{
-					"id": "qqreadtimeurl3",
-					"name": "qqreadtimeurl3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url3"
-				},
-				{
-					"id": "qqreadtimehd3",
-					"name": "qqreadtimehd3",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读时长cookie3"
-				},
-				{
-					"id": "qqreadbd4",
-					"name": "qqreadbd4",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读更新body4"
-				},
-				{
-					"id": "qqreadtimeurl4",
-					"name": "qqreadtimeurl4",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url4"
-				},
-				{
-					"id": "qqreadtimehd4",
-					"name": "qqreadtimehd4",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读时长cookie4"
-				},
-				{
-					"id": "qqreadbd5",
-					"name": "qqreadbd5",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读更新body5"
-				},
-				{
-					"id": "qqreadtimeurl5",
-					"name": "qqreadtimeurl5",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读时长url5"
-				},
-				{
-					"id": "qqreadtimehd5",
-					"name": "qqreadtimehd5",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 4,
-					"desc": "阅读时长cookie5"
-				}
-			],
-			"author": "@ziye12",
-			"repo": "https://github.com/ziye12/JavaScript/blob/master/Task/qqreads.js",
-			"icons": [
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
-			]
-		},
-		{
-			"id": "qq_read_ck",
-			"name": "企鹅读书-多账号CK",
-			"keys": [],
+			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1","qqreadbd2","qqreadtimeurl2","qqreadtimehd2","qqreadbd3","qqreadtimeurl3","qqreadtimehd3","qqreadbd4","qqreadtimeurl4","qqreadtimehd4","qqreadbd5","qqreadtimeurl5","qqreadtimehd5","qqreadbd6","qqreadtimeurl6","qqreadtimehd6","qqreadbd7","qqreadtimeurl7","qqreadtimehd7"],
 			"settings": [
 				{
 					"id": "qqread_jbid",
@@ -338,10 +186,10 @@
 					"type": "textarea",
 					"autoGrow": false,
 					"rows": 1,
-					"desc": "企鹅读书,账号索引"
+					"desc": "企鹅读书,多账号索引,默认可以存取7个账号."
 				}
 			],
-			"author": "@hootigger",
+			"author": "@ziye12",
 			"repo": "https://github.com/ziye12/JavaScript/blob/master/Task/qqreads.js",
 			"icons": [
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
