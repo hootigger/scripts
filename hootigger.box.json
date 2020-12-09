@@ -178,6 +178,7 @@
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
 			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1","qqreadbd2","qqreadtimeurl2","qqreadtimehd2","qqreadbd3","qqreadtimeurl3","qqreadtimehd3","qqreadbd4","qqreadtimeurl4","qqreadtimehd4","qqreadbd5","qqreadtimeurl5","qqreadtimehd5","qqreadbd6","qqreadtimeurl6","qqreadtimehd6","qqreadbd7","qqreadtimeurl7","qqreadtimehd7"],
+			"desc":"支持写入最多7个账号(后期有需要可以更新,理论无限制),更改qqread_jbid的值,从1开始,保存后抓取ck",
 			"settings": [
 				{
 					"id": "qqread_jbid",
