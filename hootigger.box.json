@@ -201,6 +201,9 @@
 			"id": "xmly_ck",
 			"name": "喜马拉雅极速版Ck",
 			"keys": ["xmly_cookie1","xmly_ua1","xmly_cookie2","xmly_ua2"],
+			"descs_html": [
+				
+			],
 			"settings": [
 				{
 					"id": "xmly_del_cookie",
