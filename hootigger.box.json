@@ -177,7 +177,7 @@
 		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1"],
+			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1","qqreadbd2","qqreadtimeurl2","qqreadtimehd2","qqreadbd3","qqreadtimeurl3","qqreadtimehd3","qqreadbd4","qqreadtimeurl4","qqreadtimehd4"],
 			"settings": [
 				{
 					"id": "qqreadbd1",
@@ -272,8 +272,7 @@
 					"autoGrow": false,
 					"rows": 4,
 					"desc": "阅读更新body4"
-				}
-				,
+				},
 				{
 					"id": "qqreadtimeurl4",
 					"name": "qqreadtimeurl4",
@@ -291,6 +290,33 @@
 					"autoGrow": false,
 					"rows": 4,
 					"desc": "阅读时长cookie4"
+				},
+				{
+					"id": "qqreadbd5",
+					"name": "qqreadbd5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读更新body5"
+				},
+				{
+					"id": "qqreadtimeurl5",
+					"name": "qqreadtimeurl5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url5"
+				},
+				{
+					"id": "qqreadtimehd5",
+					"name": "qqreadtimehd5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 4,
+					"desc": "阅读时长cookie5"
 				}
 			],
 			"author": "@ziye12",
