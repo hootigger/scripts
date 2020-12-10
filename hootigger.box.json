@@ -8,76 +8,16 @@
 		{
 			"id": "youth",
 			"name": "中青看点",
-			"keys": ["youthheader_zq","red_zq","read_zq","readtime_zq","signt","times","opbox"],
+			"keys": ["youthheader_zq","red_zq","read_zq","readtime_zq","youthheader_zq1","red_zq1","read_zq1","readtime_zq1"],
 			"settings": [
 				{
-					"id": "youthheader_zq",
-					"name": "youthheader_zq",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "请求Headers"
-				}
-				,
-				{
-					"id": "red_zq",
-					"name": "red_zq",
-					"val": "",
+					"id": "youth_account_index",
+					"name": "账号索引",
+					"val": "1",
 					"type": "textarea",
 					"autoGrow": false,
 					"rows": 1,
-					"desc": "red_zq"
-				}
-				,
-				{
-					"id": "read_zq",
-					"name": "read_zq",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "read_zq"
-				}
-				,
-				{
-					"id": "readtime_zq",
-					"name": "readtime_zq",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "readtime_zq"
-				}
-				,
-				{
-					"id": "signt",
-					"name": "signt",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "signt"
-				}
-				,
-				{
-					"id": "times",
-					"name": "times",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "times"
-				}
-				,
-				{
-					"id": "opbox",
-					"name": "opbox",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "opbox"
+					"desc": "中青看点极速版,抓取第几个账号的cookie,留空抓取默认"
 				}
 			],
 			"author": "@Sunert",
