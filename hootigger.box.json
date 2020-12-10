@@ -16,7 +16,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "请求Headers"
 				}
 				,
@@ -36,7 +36,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "read_zq"
 				}
 				,
@@ -99,7 +99,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 				}
 				,
@@ -109,7 +109,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 				}
 				,
@@ -152,7 +152,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "签到headers"
 				}
 				,
@@ -162,7 +162,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 8,
+					"rows": 2,
 					"desc": "视频headers"
 				}
 			],
@@ -177,15 +177,25 @@
 		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1"],
+			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1","qqreadbd2","qqreadtimeurl2","qqreadtimehd2","qqreadbd3","qqreadtimeurl3","qqreadtimehd3","qqreadbd4","qqreadtimeurl4","qqreadtimehd4","qqreadbd5","qqreadtimeurl5","qqreadtimehd5","qqreadbd6","qqreadtimeurl6","qqreadtimehd6","qqreadbd7","qqreadtimeurl7","qqreadtimehd7"],
+			"desc":"支持写入最多7个账号(后期有需要可以更新,理论无限制),更改qqread_jbid的值,从1开始,保存后抓取ck",
 			"settings": [
+				{
+					"id": "qqread_jbid",
+					"name": "qqread_jbid",
+					"val": "1",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "企鹅读书,多账号索引,默认可以存取7个账号."
+				},
 				{
 					"id": "qqreadbd1",
 					"name": "qqreadbd1",
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读更新body1"
 				}
 				,
@@ -204,7 +214,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读时长cookie"
 				}
 				,
@@ -214,7 +224,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读更新body2"
 				}
 				,
@@ -233,7 +243,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读时长cookie2"
 				},
 				{
@@ -242,7 +252,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读更新body3"
 				}
 				,
@@ -261,7 +271,7 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读时长cookie3"
 				},
 				{
@@ -270,10 +280,9 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读更新body4"
-				}
-				,
+				},
 				{
 					"id": "qqreadtimeurl4",
 					"name": "qqreadtimeurl4",
@@ -289,8 +298,35 @@
 					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
-					"rows": 4,
+					"rows": 2,
 					"desc": "阅读时长cookie4"
+				},
+				{
+					"id": "qqreadbd5",
+					"name": "qqreadbd5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读更新body5"
+				},
+				{
+					"id": "qqreadtimeurl5",
+					"name": "qqreadtimeurl5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长url5"
+				},
+				{
+					"id": "qqreadtimehd5",
+					"name": "qqreadtimehd5",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 2,
+					"desc": "阅读时长cookie5"
 				}
 			],
 			"author": "@ziye12",
@@ -301,31 +337,12 @@
 			]
 		},
 		{
-			"id": "qq_read_ck",
-			"name": "企鹅读书-多账号CK",
-			"keys": [],
-			"settings": [
-				{
-					"id": "qqread_jbid",
-					"name": "qqread_jbid",
-					"val": "1",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "企鹅读书,账号索引"
-				}
-			],
-			"author": "@hootigger",
-			"repo": "https://github.com/ziye12/JavaScript/blob/master/Task/qqreads.js",
-			"icons": [
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
-			]
-		},
-		{
 			"id": "xmly_ck",
 			"name": "喜马拉雅极速版Ck",
 			"keys": ["xmly_cookie1","xmly_ua1","xmly_cookie2","xmly_ua2"],
+			"descs_html": [
+
+			],
 			"settings": [
 				{
 					"id": "xmly_del_cookie",
