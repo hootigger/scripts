@@ -136,10 +136,12 @@ if ($.isNode()) {
             break
         }
         cookiesArr.push($.getdata('youthheader_zq' + index));
-        redpArr.push($.getdata('red_zq1' + index));
-        readArr.push($.getdata('read_zq1' + index));
-        timeArr.push($.getdata('readtime_zq1' + index));
+        redpArr.push($.getdata('red_zq' + index));
+        readArr.push($.getdata('read_zq' + index));
+        timeArr.push($.getdata('readtime_zq' + index));
     }
+    console.log(`============ 共${cookiesArr.length}个中青账号  =============\n`)
+    console.log(`============ 脚本执行-北京时间(UTC+8)：${new Date().toLocaleString()}  =============\n`)
 }
 
 const firstcheck = $.getdata('signt');
