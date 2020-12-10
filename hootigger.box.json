@@ -345,13 +345,6 @@
 			],
 			"settings": [
 				{
-					"id": "xmly_del_cookie",
-					"name": "是否清除cookie",
-					"val": false,
-					"type": "boolean",
-					"desc": "删除喜马拉雅极速版多账号cookie数据"
-				},
-				{
 					"id": "xmly_ck_index",
 					"name": "账号索引",
 					"val": "1",
