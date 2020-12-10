@@ -13,7 +13,7 @@
 				{
 					"id": "youth_account_index",
 					"name": "账号索引",
-					"val": "1",
+					"val": "",
 					"type": "textarea",
 					"autoGrow": false,
 					"rows": 1,
