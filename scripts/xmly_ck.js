@@ -15,25 +15,11 @@
 const jsname = "喜马拉雅极速版";
 const $ = Env(jsname);
 
-// 是否清除ck
-const isDelCookie = $.getdata('xmly_del_cookie') || 'false'
-
-const ck1 = 'xmly_cookie1'
-const ck2 = 'xmly_cookie2'
-const ua1 = 'xmly_ua1'
-const ua2 = 'xmly_ua2'
+const index = $.getdata('xmly_ck_index') || '1'
+const ck_key = 'xmly_cookie'+index
+const ua_key = 'xmly_ua'+index
 
 !(async () => {
-  if (isDelCookie === 'true') {
-    $.setdata('',ck1)
-    $.setdata('',ua1)
-    $.setdata('',ck2)
-    $.setdata('',ua2)
-    $.setdata('false','xmly_del_cookie') // 恢复false
-    $.log(jsname,'Cookie清除成功!请重新获取!')
-    $.msg(jsname,'','Cookie清除成功!请重新获取!')
-    return
-  }
   if (typeof $request !== "undefined") {
     GetCookie()
   } else {
@@ -53,28 +39,11 @@ function GetCookie() {
     const ck = $request.headers['Cookie']
     const ua = $request.headers['User-Agent']
     if (ck && ua) {
-      const hasCK1 = $.getdata(ck1) !== undefined && $.getdata(ck1) !== '' && $.getdata(ua1) !== undefined && $.getdata(ua1) !== ''
-      const hasCK2 = $.getdata(ck2) !== undefined && $.getdata(ck2) !== '' && $.getdata(ua2) !== undefined && $.getdata(ua2) !== ''
-      if (!hasCK1) {
-        $.setdata(ck,ck1)
-        $.setdata(ua,ua1)
+        $.setdata(ck,ck_key)
+        $.setdata(ua,ua_key)
         $.log(jsname,`写入 ${ck1}: `,ck)
         $.log(jsname,`写入 ${ua1}: `,ua)
-        $.msg(jsname,`${ck1} & ${ua1}: 获取Cookie: 成功🎉`)
-      } else if (!hasCK2) {
-        $.setdata(ck,ck2)
-        $.setdata(ua,ua2)
-        $.log(jsname,`写入 ${ck2}: `,ck)
-        $.log(jsname,`写入 ${ua2}: `,ua)
-        $.msg(jsname,'',`${ck2} & ${ua2}: 获取Cookie: 成功🎉`)
-      } else {
-        // 若1,2账号均存在 则更新到1
-        $.setdata(ck,ck1)
-        $.setdata(ua,ua1)
-        $.log(jsname,`写入 ${ck1}: `,ck)
-        $.log(jsname,`写入 ${ua1}: `,ua)
-        $.msg(jsname,'',`${ck1} & ${ua1}: 获取Cookie: 成功🎉`)
-      }
+        $.msg(jsname,'',`${ck_key} & ${ua_key}: 获取Cookie: 成功🎉`)
     }
   }
 }

@@ -352,6 +352,15 @@
 					"desc": "删除喜马拉雅极速版多账号cookie数据"
 				},
 				{
+					"id": "xmly_ck_index",
+					"name": "账号索引",
+					"val": "1",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "喜马拉雅极速版,抓取第几个账号的cookie"
+				},
+				{
 					"id": "xmly_cookie1",
 					"name": "账号1Cookie",
 					"val": "",
