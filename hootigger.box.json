@@ -117,7 +117,15 @@
 		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
-			"keys": ["qqreadbd1","qqreadtimeurl1","qqreadtimehd1","qqreadbd2","qqreadtimeurl2","qqreadtimehd2","qqreadbd3","qqreadtimeurl3","qqreadtimehd3","qqreadbd4","qqreadtimeurl4","qqreadtimehd4","qqreadbd5","qqreadtimeurl5","qqreadtimehd5","qqreadbd6","qqreadtimeurl6","qqreadtimehd6","qqreadbd7","qqreadtimeurl7","qqreadtimehd7"],
+			"keys": [
+				"qqreadbd1","qqreadtimeurl1","qqreadtimehd1",
+				"qqreadbd2","qqreadtimeurl2","qqreadtimehd2",
+				"qqreadbd3","qqreadtimeurl3","qqreadtimehd3",
+				"qqreadbd4","qqreadtimeurl4","qqreadtimehd4",
+				"qqreadbd5","qqreadtimeurl5","qqreadtimehd5",
+				"qqreadbd6","qqreadtimeurl6","qqreadtimehd6",
+				"qqreadbd7","qqreadtimeurl7","qqreadtimehd7"
+			],
 			"desc":"支持写入最多7个账号(后期有需要可以更新,理论无限制),更改qqread_jbid的值,从1开始,保存后抓取ck",
 			"settings": [
 				{
@@ -333,6 +341,31 @@
 			"author": "@hootigger",
 			"repo": "https://github.com/hootigger/scripts/blob/main/scripts/xmly_ck.js",
 			"script":"https://raw.githubusercontent.com/hootigger/scripts/main/scripts/xmly_ck.js",
+			"icons": [
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
+				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
+			]
+		},
+		{
+			"id": "htt_ck",
+			"name": "惠头条",
+			"keys": [
+				"htt_dongfangnameA","htt_signurlcknameA","htt_signbdnameA","htt_videonameA","htt_smvideonameA"
+			],
+			"settings": [
+				{
+					"id": "htt_id",
+					"name": "htt_id",
+					"val": "A",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "惠头条多账号,账号后缀"
+				}
+			],
+			"author": "@hootigger",
+			"repo": "https://gitee.com/hanfuxing/personal-collection/blob/master/htt/htt_cookie.js",
+			"script":"https://gitee.com/hanfuxing/personal-collection/raw/master/htt/htt_task.js",
 			"icons": [
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
