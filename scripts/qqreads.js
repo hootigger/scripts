@@ -196,8 +196,9 @@ if ($.isNode()) {
 
 if ((isGetCookie = typeof $request !== "undefined")) {
   GetCookie();
-$.done();
-return
+  $.done();
+} else {
+  all()
 }
 
 function GetCookie() {
@@ -228,9 +229,6 @@ if ($request && $request.url.indexOf("addReadTimeWithBid?") >= 0) {
 
 }
 
-
-
-all();
 function all() {
   qqreadbodyVal = qqreadbdArr[K];
   qqreadtimeurlVal = qqreadtimeurlArr[K];
