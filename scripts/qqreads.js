@@ -76,8 +76,9 @@ http-request https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? script-
 
 const jsname = "企鹅读书";
 const $ = Env(jsname);
-$.idx = ($.idx = ($.getval('qeSuffix') || '1') - 1) > 0 ? ($.idx + 1 + '') : ''; // 账号扩展字符
 const notify = $.isNode() ? require("./sendNotify") : "";
+
+const jbid = $.getdata("qqread_jbid") || 1 //换号则修改这个值,默认账号1
 
 let tz = "";
 let kz = "";
@@ -98,7 +99,6 @@ const TIME = 30; // 单次时长上传限制，默认5分钟
 const maxtime = 12; // 每日上传时长限制，默认12小时
 const wktimess = 1200; // 周奖励领取标准，默认1200分钟
 
-const jbid = $.getdata("qqread_jbid") || 1 //换号则修改这个值,默认账号1
 
 const d = new Date(new Date().getTime() + 8 * 60 * 60 * 1000);//GITHUB
 const b = new Date(new Date().getTime());//手机
