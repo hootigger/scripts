@@ -8,7 +8,23 @@
 		{
 			"id": "youth",
 			"name": "中青看点",
-			"keys": ["youthheader_zq","red_zq","read_zq","readtime_zq","youthheader_zq1","red_zq1","read_zq1","readtime_zq1"],
+			"keys": [
+				"youthheader_zq","red_zq","read_zq","readtime_zq",
+				"youthheader_zq1","red_zq1","read_zq1","readtime_zq1"
+			],
+			"descs_html":[
+				"<h3>说明</h3>",
+				"获取Cookie方法:",
+				"1.将下方[rewrite_local]和[MITM]地址复制的相应的区域,<a href='https://raw.githubusercontent.com/hootigger/scripts/main/scripts/youth.js'>JS地址</a>",
+				"2. 获取Cookie方法，可随时更新",
+				" ① 进入app，进入任务中心或者签到一次,即可获取Cookie. ",
+				" ② 阅读一篇文章，获取阅读请求body，",
+				" ③ 同时获取阅读时长，",
+				" ④ 在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求",
+				"3.增加转盘抽奖通知间隔，为了照顾新用户，前三次会有通知，以后默认每50次转盘抽奖通知一次，可自行修改❗️ 转盘完成后通知会一直开启",
+				"4.非专业人士制作，欢迎各位大佬提出宝贵意见和指导",
+				"5.增加每日打卡，打卡时间每日5:00-8:00❗️，请不要忘记设置运行时间，共4条Cookie，请全部获取，获取请注释"
+			],
 			"settings": [
 				{
 					"id": "youth_account_index",
@@ -33,26 +49,6 @@
 			"name": "中青自动阅读",
 			"keys": ["zqgetbody_body","zqgetbody_body1"],
 			"settings": [
-				{
-					"id": "zqgetbody_body",
-					"name": "请求body",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-				}
-				,
-				{
-					"id": "zqgetbody_body1",
-					"name": "请求body1",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-				}
-				,
 				{
 					"id": "zqgetbody_body_index",
 					"name": "上次执行位置",
@@ -299,7 +295,9 @@
 			"name": "喜马拉雅极速版Ck",
 			"keys": ["xmly_cookie1","xmly_ua1","xmly_cookie2","xmly_ua2"],
 			"descs_html": [
-
+				"<h3>说明</h3>",
+				"1. 进入喜马拉雅极速版,点击 <b>福利</b> 即可获取Cookie和UA",
+				"2. 更改索引然后保存,即可抓取第二个账号."
 			],
 			"settings": [
 				{
