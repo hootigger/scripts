@@ -124,9 +124,18 @@
 				"qqreadbd4","qqreadtimeurl4","qqreadtimehd4",
 				"qqreadbd5","qqreadtimeurl5","qqreadtimehd5",
 				"qqreadbd6","qqreadtimeurl6","qqreadtimehd6",
-				"qqreadbd7","qqreadtimeurl7","qqreadtimehd7"
+				"qqreadbd7","qqreadtimeurl7","qqreadtimehd7",
+				"qqreadbd8","qqreadtimeurl8","qqreadtimehd8",
+				"qqreadbd9","qqreadtimeurl9","qqreadtimehd9",
+				"qqreadbd10","qqreadtimeurl10","qqreadtimehd10"
 			],
-			"desc":"支持写入最多7个账号(后期有需要可以更新,理论无限制),更改qqread_jbid的值,从1开始,保存后抓取ck",
+			"descs_html": [
+				"<h3>说明</h3>",
+				"1. 默认支持写入最多10个账号(后期有需要可以更新,理论无限制)",
+				"2. 首先qqread_jbid的值,从1开始,然后点击 保存 .(注意: 请按照顺序增加!从1开始.)",
+				"3. 打开QQ企鹅读书,打开 书库 ,选择一本书,进去就会提示抓取 更新body成功,然后返回即可获取到 时长url和时长hd.",
+				"4. 然后切换到 boxjs 中应该可以看到账号1的3个ck获取成功了,若继续抓取,请更改qqread_jbid的值为2,然后保存设置.再次重复上述步骤即可!"
+			],
 			"settings": [
 				{
 					"id": "qqread_jbid",
