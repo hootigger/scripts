@@ -363,6 +363,17 @@
 				"htt_dongfangnameA","htt_signurlcknameA","htt_signbdnameA","htt_videonameA","htt_smvideonameA",
 				"htt_dongfangnameB","htt_signurlcknameB","htt_signbdnameB","htt_videonameB","htt_smvideonameB"
 			],
+			"descs_html":[
+				"<h3>说明</h3>",
+				"1.【签到cookie】",
+				"进入任务页面，或者签到一次,签到过可以点击下 获取金币",
+				"2.【阅读cookie】",
+				"进入app-头条页面，阅读一篇文章获取金币奖励",
+				"3.【视频cookie】",
+				"进入视频页面，看一篇视频到获取金币奖励",
+				"4.【小视频cookie】",
+				"视频页面点到小视频，看一篇小视频到获取金币奖励"
+			],
 			"settings": [
 				{
 					"id": "htt_id",
