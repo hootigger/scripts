@@ -360,7 +360,8 @@
 			"id": "htt_ck",
 			"name": "惠头条",
 			"keys": [
-				"htt_dongfangnameA","htt_signurlcknameA","htt_signbdnameA","htt_videonameA","htt_smvideonameA"
+				"htt_dongfangnameA","htt_signurlcknameA","htt_signbdnameA","htt_videonameA","htt_smvideonameA",
+				"htt_dongfangnameB","htt_signurlcknameB","htt_signbdnameB","htt_videonameB","htt_smvideonameB"
 			],
 			"settings": [
 				{
