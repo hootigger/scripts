@@ -2,16 +2,14 @@
   "name": "脚本合集",
   "description": "自用,收集脚本,感谢各位大佬的辛苦付出~",
   "task": [
-    "10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js, tag=京东金榜年终奖, enabled=true",
     "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_ms_redrain.js, tag=秒杀红包雨, enabled=true",
     "8 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js, tag=领京豆额外奖励, enabled=true",
     "9 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true",
     "9 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js, tag=京东汽车, enabled=true",
     "11 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js, tag=健康抽奖机, enabled=true",
-    "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js, tag=数码加购京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true",
-    "0 0,9,11,13,15,17,19,20,21,23 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js, tag=直播红包雨, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true",
     "0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/ttwbxcxSign.js, tag=天天挖矿小程序, enabled=true",
     "*/2 0-16 * * * https://gitee.com/hanfuxing/personal-collection/raw/master/htt/htt_task.js, tag=惠头条, img-url=https://raw.githubusercontent.com/Orz-3/task/master/htt.png, enabled=true",
-    "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,tag=中国电信,enabled=true"
+    "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,tag=中国电信,enabled=true",
+    "0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdzz.js, tag=京东赚赚, enabled=true"
   ]
 }
