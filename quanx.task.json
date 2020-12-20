@@ -10,6 +10,7 @@
     "0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/ttwbxcxSign.js, tag=天天挖矿小程序, enabled=true",
     "*/2 0-16 * * * https://gitee.com/hanfuxing/personal-collection/raw/master/htt/htt_task.js, tag=惠头条, img-url=https://raw.githubusercontent.com/Orz-3/task/master/htt.png, enabled=true",
     "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,tag=中国电信,enabled=true",
-    "10-20/10 9 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_watch.js, tag=京东看一看, enabled=true"
+    "10-20/10 9 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_watch.js, tag=京东看一看, enabled=true",
+    "15 0 * * * https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js,tag=汽车之家极速版,img-url=https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/qczjspeed.jpg,enabled=true"
   ]
 }
