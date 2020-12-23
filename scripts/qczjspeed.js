@@ -539,6 +539,7 @@ if ($request && $request.url.indexOf("cointowallet") >= 0&&$request.body.indexOf
 let isGetCookie = typeof $request !== 'undefined'
 if (isGetCookie) {
   GetCookie()
+  $.done()
 } else {
   !(async () => {
     await all();
