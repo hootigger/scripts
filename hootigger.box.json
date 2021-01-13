@@ -78,39 +78,6 @@
 			]
 		},
 		{
-			"id": "QQReadSign",
-			"name": "QQ阅读APP",
-			"keys": ["checkinheader","punchCardheader"],
-			"settings": [
-				{
-					"id": "checkinheader",
-					"name": "checkinheader",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "签到headers"
-				}
-				,
-				{
-					"id": "punchCardheader",
-					"name": "punchCardheader",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "视频headers"
-				}
-			],
-			"author": "@DD-D1",
-			"repo": "https://github.com/DD-D1/2020scripts/blob/master/QQReadSign.js",
-			"script":"https://raw.githubusercontent.com/DD-D1/2020scripts/master/QQReadSign.js",
-			"icons": [
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
-				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
-			]
-		},
-		{
 			"id": "qq_read",
 			"name": "企鹅阅读-多账号",
 			"keys": [
@@ -207,9 +174,12 @@
 					"desc": "喜马拉雅极速版UA"
 				}
 			],
+			"scripts": [{
+				"name": "打印Cookie",
+				"script": "https://raw.githubusercontent.com/hootigger/scripts/main/scripts/xmly_ck.js"
+			}],
 			"author": "@hootigger",
 			"repo": "https://github.com/hootigger/scripts/blob/main/scripts/xmly_ck.js",
-			"script":"https://raw.githubusercontent.com/hootigger/scripts/main/scripts/xmly_ck.js",
 			"icons": [
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png",
 				"https://raw.githubusercontent.com/hootigger/scripts/main/icon/js.png"
