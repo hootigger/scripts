@@ -24,11 +24,19 @@ const ua_key = 'xmly_ua'+index
     GetCookie()
   } else {
     $.log(jsname,'脚本仅供获取cookie和UA使用!请按照脚本说明加入重写.')
-    const tips = `Cookie1 = ${$.getdata('xmly_cookie1')}
-    UA1 = ${$.getdata('xmly_ua1')}
+    const tips = `
     
-    Cookie2 = ${$.getdata('xmly_cookie2')}
-    UA2 = ${$.getdata('xmly_ua2')}
+    [Cookie1]
+    ${$.getdata('xmly_cookie1')}
+    
+    [UA1]
+    ${$.getdata('xmly_ua1')}
+
+    [Cookie2]
+    ${$.getdata('xmly_cookie2')}
+    
+    [UA2]
+    ${$.getdata('xmly_ua2')}
     `
     console.log(tips)
   }

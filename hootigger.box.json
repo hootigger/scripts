@@ -136,42 +136,6 @@
 					"autoGrow": false,
 					"rows": 1,
 					"desc": "喜马拉雅极速版,抓取第几个账号的cookie"
-				},
-				{
-					"id": "xmly_cookie1",
-					"name": "账号1Cookie",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "喜马拉雅极速版Cookie"
-				},
-				{
-					"id": "xmly_ua1",
-					"name": "账号1 UA",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "喜马拉雅极速版UA"
-				},
-				{
-					"id": "xmly_cookie2",
-					"name": "账号2 Cookie",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "喜马拉雅极速版Cookie"
-				},
-				{
-					"id": "xmly_ua2",
-					"name": "账号2 UA",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 2,
-					"desc": "喜马拉雅极速版UA"
 				}
 			],
 			"scripts": [{
