@@ -6,7 +6,7 @@
 	"repo": "https://github.com/hootigger/scripts",
 	"apps": [
 		{
-			"id": "youth",
+			"id": "youth_custom",
 			"name": "中青看点",
 			"keys": [
 				"youthheader_zq","red_zq","read_zq","readtime_zq",
