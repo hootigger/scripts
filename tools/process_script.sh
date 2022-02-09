@@ -16,6 +16,8 @@ process_chavyleung() {
     make_cron "1 0 * * *" $prefix/tieba/tieba.js
 
     sed -i "s/\$.getdata('chavy_cookie_neteasemusic')/process.env.NETEASE_MUSIC_CK/" $prefix/neteasemusic/neteasemusic.js
+    sed -i "s/(\$.getdata('CFG_neteasemusic_retryCnt').*/4/" $prefix/neteasemusic/neteasemusic.js
+    sed -i "s/(\$.getdata('CFG_neteasemusic_retryInterval').*/1000/" $prefix/neteasemusic/neteasemusic.js
     sed -i "s/\$.msg/require('.\/sendNotify').sendNotify/" $prefix/neteasemusic/neteasemusic.js
     make_cron "5 7 * * *" $prefix/neteasemusic/neteasemusic.js
     
