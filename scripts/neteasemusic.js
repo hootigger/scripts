@@ -19,7 +19,7 @@ $.CFG_retryInterval = 1000
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
   })
   .finally(() => {
-    $.msg($.name, $.subt, $.desc), $.log('', `🔔 ${$.name}, 结束!`, ''), $.done()
+    require('./scripts/sendWrapper').sendNotify($.name, $.subt, $.desc), $.log('', `🔔 ${$.name}, 结束!`, ''), $.done()
   })
 
 function init() {

@@ -223,7 +223,7 @@ function showmsg() {
         _descinfo.push(`点击查看详情, 第 ${_curPage++}/${_totalPage} 页`)
         $.subt = `${tiebasubt}, ${zhidaosubt}`
         $.desc = [..._descinfo, '', ...$.desc].join('\n')
-        $.msg($.name, $.subt, $.desc)
+        require('./scripts/sendWrapper').sendNotify($.name, $.subt, $.desc)
         $.desc = []
       }
     })

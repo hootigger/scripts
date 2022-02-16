@@ -38,7 +38,7 @@ function signapp() {
         $.signinfo.sign = JSON.parse(response.body)
         resolve()
       } catch (e) {
-        $.msg($.name, `签到结果: 失败`, `说明: ${e}`)
+        require('./scripts/sendWrapper').sendNotify($.name, `签到结果: 失败`, `说明: ${e}`)
         $.log(`❌ ${$.name} signapp - 签到失败: ${e}`)
         $.log(`❌ ${$.name} signapp - response: ${JSON.stringify(response)}`)
         resolve()
@@ -65,7 +65,7 @@ function browseapp() {
         $.signinfo.browseapp = JSON.parse(data)
         resolve()
       } catch (e) {
-        $.msg($.name, `每日浏览: 失败`, `说明: ${e}`)
+        require('./scripts/sendWrapper').sendNotify($.name, `每日浏览: 失败`, `说明: ${e}`)
         $.log(`❌ ${$.name} browseapp - 每日浏览: ${e}`)
         $.log(`❌ ${$.name} browseapp - response: ${JSON.stringify(response)}`)
         resolve()
@@ -90,7 +90,7 @@ function getinfo() {
         $.signinfo.info = JSON.parse(data)
         resolve()
       } catch (e) {
-        $.msg($.name, `获取签到信息: 失败`, `说明: ${e}`)
+        require('./scripts/sendWrapper').sendNotify($.name, `获取签到信息: 失败`, `说明: ${e}`)
         $.log(`❌ ${$.name} getinfo - 获取签到信息失败: ${e}`)
         $.log(`❌ ${$.name} getinfo - response: ${JSON.stringify(response)}`)
         resolve()
@@ -115,7 +115,7 @@ function getacc() {
         $.signinfo.acc = JSON.parse(data)
         resolve()
       } catch (e) {
-        $.msg($.name, `获取账号信息: 失败`, `说明: ${e}`)
+        require('./scripts/sendWrapper').sendNotify($.name, `获取账号信息: 失败`, `说明: ${e}`)
         $.log(`❌ ${$.name} getacc - 获取账号信息失败: ${e}`)
         $.log(`❌ ${$.name} getacc - response: ${JSON.stringify(response)}`)
         resolve()
@@ -151,7 +151,7 @@ function showmsg() {
       subTitle += ', 每日浏览: 失败'
     }
   }
-  $.msg($.name, subTitle, detail)
+  require('./scripts/sendWrapper').sendNotify($.name, subTitle, detail)
 }
 
 // prettier-ignore

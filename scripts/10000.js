@@ -126,7 +126,7 @@ function showmsg() {
       }
       $.desc = $.desc.join('\n')
     }
-    $.msg($.name, $.subt, $.desc)
+    require('./scripts/sendWrapper').sendNotify($.name, $.subt, $.desc)
     resolve()
   })
 }
