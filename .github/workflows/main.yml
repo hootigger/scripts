@@ -34,8 +34,8 @@ jobs:
       - name: Config git
         run: |
           cd $GITHUB_WORKSPACE/my
-          git config --global user.name ${{ secrets.USER_NAME }}
-          git config --global user.email ${{ secrets.USER_EMAIL }}
+          # git config --global user.name ${{ secrets.USER_NAME }}
+          # git config --global user.email ${{ secrets.USER_EMAIL }}
           git add .
           git commit -am "[Action] auto sync"
           git push
