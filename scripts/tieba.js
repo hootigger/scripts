@@ -1,6 +1,7 @@
 /**
 * cron: 1 0 * * *
 */
+
 const $ = new Env('百度签到')
 $.VAL_cookies = process.env.TIEBA_COOKIE || $.getdata('CookieTB')
 
@@ -222,7 +223,7 @@ function showmsg() {
         _descinfo.push(`点击查看详情, 第 ${_curPage++}/${_totalPage} 页`)
         $.subt = `${tiebasubt}, ${zhidaosubt}`
         $.desc = [..._descinfo, '', ...$.desc].join('\n')
-        require('./sendNotify').sendNotify($.name, $.subt, $.desc)
+        $.msg($.name, $.subt, $.desc)
         $.desc = []
       }
     })

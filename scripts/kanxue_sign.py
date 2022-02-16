@@ -33,13 +33,13 @@ logger.addHandler(logging.StreamHandler())  # 添加控制台日志
 ck = os.getenv("kanxue_cookie")
 if not ck:
     logger.info(
-        "export kanxue_cookie=''"
+        "未找到ck, 请export kanxue_cookie=''"
     )
     exit(-1)
 
 headers = {
     "Accept": "application/json",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36",
     "Cookie": ck,
     'Connection': 'keep-alive',
     'Accept': '*/*'
@@ -65,13 +65,11 @@ def signin():
     response = requests.post(url=url, headers=headers)
     datas = json.loads(response.content.decode("utf-8"))
     print(datas)
-    # if datas.get("code") == 200:
-    #     tasklist = datas.get("data")
-    # return tasklist
+    send("看雪签到", f'\n{datas.get("message")}')
 
 
 if __name__ == "__main__":
     logger.info("===> 看雪签到开始 <===")
     load_send()
     signin()
-    # send("💖禁用重复任务成功", f"\n{sum}\n{filter}\n{disable}")
+    logger.info("===> 看雪签到结束 <===")

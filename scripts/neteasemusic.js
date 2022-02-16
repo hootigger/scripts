@@ -1,10 +1,11 @@
 /**
 * cron: 5 7 * * *
 */
+
 const $ = new Env('网易云音乐')
 $.VAL_session = process.env.NETEASE_MUSIC_CK
-$.CFG_retryCnt = ($.getdata('CFG_neteasemusic_retryCnt') || '10') * 1
-$.CFG_retryInterval = ($.getdata('CFG_neteasemusic_retryInterval') || '500') * 1
+$.CFG_retryCnt = 4
+$.CFG_retryInterval = 1000
 
 !(async () => {
   $.log('', `🔔 ${$.name}, 开始!`, '')
@@ -18,7 +19,7 @@ $.CFG_retryInterval = ($.getdata('CFG_neteasemusic_retryInterval') || '500') * 1
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
   })
   .finally(() => {
-    require('./sendNotify').sendNotify($.name, $.subt, $.desc), $.log('', `🔔 ${$.name}, 结束!`, ''), $.done()
+    $.msg($.name, $.subt, $.desc), $.log('', `🔔 ${$.name}, 结束!`, ''), $.done()
   })
 
 function init() {
