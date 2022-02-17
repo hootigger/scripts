@@ -14,3 +14,7 @@ async function sendNotify(text, ...desp) {
     desp = desp.join('\n')
     await send.sendNotify(text, desp)
 }
+
+module.exports = {
+    sendNotify
+}
