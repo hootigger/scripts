@@ -65,7 +65,7 @@ def signin():
     response = requests.post(url=url, headers=headers)
     datas = json.loads(response.content.decode("utf-8"))
     print(datas)
-    send("看雪签到", f'\n{datas.get("message")}')
+    send("看雪签到", f'获得 {datas.get("message")} 雪币.')
 
 
 if __name__ == "__main__":
