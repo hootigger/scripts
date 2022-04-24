@@ -10,7 +10,6 @@
 # @Copyright (c) 2022 Hootigger
 
 import json
-import logging
 import os
 import sys
 import traceback
@@ -22,7 +21,7 @@ new Env('叮咚买菜运力监控');
 """
 
 def load_send() -> None:
-    logger.info("加载推送功能中...")
+    print("加载推送功能中...")
     global send
     send = None
     cur_path = os.path.abspath(os.path.dirname(__file__))
@@ -32,7 +31,7 @@ def load_send() -> None:
             from notify import send
         except Exception:
             send = None
-            logger.info(f"❌加载通知服务失败!!!\n{traceback.format_exc()}")
+            print(f"❌加载通知服务失败!!!\n{traceback.format_exc()}")
 
 def home_data():
     url = 'https://maicai.api.ddxq.mobi/homeApi/newDetails?api_version=9.50.1&app_client_id=1&app_type=&buildVersion=1229&channel=App%20Store&city_number=0101&countryCode=CN&device_id=94c36cae133abf394f545f1c71e5936835a59321&device_model=iPhone13%2C2&device_name=iPhone%2012&idfa=&ip=&languageCode=zh&latitude=31.180359&localeIdentifier=zh_CN&longitude=121.524199&os_version=15.4.1&pageId=homePage&seqid=2123790948&sign=ae95ba7f038f1753b8f563e46ee5e92a&station_id=5bc5a7d4716de1a94f8b6fb6&time=1650770528&uid=5bc9a942efe2cd0f41852d49'
