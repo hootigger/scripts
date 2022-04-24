@@ -70,11 +70,12 @@ def home_data():
     resp_str = response.content.decode("utf-8")
     datas = json.loads(resp_str)
     try:
-        home_list = datas['data']['list']
         for item in datas['data']['list']:
             if (item['type'] == 5):
                 print(f'bill_info = {item}]\n')
                 return item['new_bill_board']['materials'][0]['content']
+        print('首页数据未包含运力信息!')
+        return None
     except Exception as e:
         print(f'Error: {e}, data = {datas}')
         return None
